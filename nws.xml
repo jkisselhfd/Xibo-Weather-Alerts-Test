@@ -14,7 +14,7 @@
         <author>
             <name>Sample Weather Service</name>
         </author>
-        <summary type="text">This is a test alert for a sample region to demonstrate CAP XML formatting.</summary>
+        <summary type="text">This is a test alert for a sample region to demonstrate CAP XML formatting. THIS IS ONLY A TEST. This is a test alert for a sample region to demonstrate CAP XML formatting. THIS IS ONLY A TEST.</summary>
         <link href="https://example.com" />
         <cap:alert>
             <cap:identifier>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</cap:identifier>
@@ -26,14 +26,14 @@
             <cap:info>
                 <cap:language>en</cap:language>
                 <cap:category>Met</cap:category>
-                <cap:event>Sample Weather Event</cap:event>
+                <cap:event>Test Weather Event</cap:event>
                 <cap:urgency>Expected</cap:urgency>
-                <cap:severity>Extreme</cap:severity>
+                <cap:severity>Moderate</cap:severity>
                 <cap:certainty>Likely</cap:certainty>
-                <cap:senderName>Sample Weather Service</cap:senderName>
+                <cap:senderName>Name. Sample Weather Service</cap:senderName>
                 <cap:headline>Test Alert for Sample Region</cap:headline>
-                <cap:description>This is a sample description for a simulated weather alert. No real-world action is required.</cap:description>
-                <cap:instruction>This is only a test. No action is needed. For questions, contact your test admin.</cap:instruction>
+                <cap:description>Description. This is a sample description for a simulated weather alert. No real-world action is required.</cap:description>
+                <cap:instruction>Instruction.This is only a test. No action is needed. For questions, contact your test admin.</cap:instruction>
                 <cap:web>https://example.com</cap:web>
                 <cap:contact>alerts@example.com</cap:contact>
                 <cap:resource>
