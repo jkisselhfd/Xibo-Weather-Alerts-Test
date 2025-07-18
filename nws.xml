@@ -28,7 +28,7 @@
                 <cap:category>Met</cap:category>
                 <cap:event>Test Weather Event</cap:event>
                 <cap:urgency>Expected</cap:urgency>
-                <cap:severity>Moderate</cap:severity>
+                <cap:severity>Minor</cap:severity>
                 <cap:certainty>Likely</cap:certainty>
                 <cap:senderName>Name. Sample Weather Service</cap:senderName>
                 <cap:headline>Test Alert for Sample Region</cap:headline>
