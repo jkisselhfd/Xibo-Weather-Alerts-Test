@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
+    <id>https://example.com/alerts</id>
+    <title>Sample Weather Alerts Feed</title>
+    <updated>2025-01-01T00:00:00-00:00</updated>
+    <author>
+        <name>Sample Weather Service</name>
+    </author>
+    <entry>
+        <id>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</id>
+        <title>Test Alert for Sample Region</title>
+        <updated>2025-01-01T00:00:00-00:00</updated>
+        <published>2025-01-01T00:00:00-00:00</published>
+        <author>
+            <name>Sample Weather Service</name>
+        </author>
+        <summary type="text">This is a test alert for a sample region to demonstrate CAP XML formatting.</summary>
+        <link href="https://example.com" />
+        <cap:alert>
+            <cap:identifier>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</cap:identifier>
+            <cap:sender>alerts@example.com</cap:sender>
+            <cap:sent>2025-01-01T00:00:00-00:00</cap:sent>
+            <cap:status>Test</cap:status>
+            <cap:msgType>Alert</cap:msgType>
+            <cap:scope>Public</cap:scope>
+            <cap:info>
+                <cap:language>en</cap:language>
+                <cap:category>Met</cap:category>
+                <cap:event>Sample Weather Event</cap:event>
+                <cap:urgency>Expected</cap:urgency>
+                <cap:severity>Minor</cap:severity>
+                <cap:certainty>Likely</cap:certainty>
+                <cap:senderName>Sample Weather Service</cap:senderName>
+                <cap:headline>Test Alert for Sample Region</cap:headline>
+                <cap:description>This is a sample description for a simulated weather alert. No real-world action is required.</cap:description>
+                <cap:instruction>This is only a test. No action is needed. For questions, contact your test admin.</cap:instruction>
+                <cap:web>https://example.com</cap:web>
+                <cap:contact>alerts@example.com</cap:contact>
+                <cap:resource>
+                    <cap:resourceDesc>Sample image</cap:resourceDesc>
+                    <cap:mimeType>jpeg</cap:mimeType>
+                    <cap:uri>https://example.com/images/sample.jpg</cap:uri>
+                </cap:resource>
+                <cap:area>
+                    <cap:areaDesc>Sample Region</cap:areaDesc>
+                    <cap:polygon>0.0,0.0 0.0,1.0 1.0,1.0 1.0,0.0 0.0,0.0</cap:polygon>
+                </cap:area>
+            </cap:info>
+        </cap:alert>
+    </entry>
+</feed>
