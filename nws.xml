@@ -26,7 +26,7 @@
             <cap:info>
                 <cap:language>en</cap:language>
                 <cap:category>Met</cap:category>
-                <cap:event>Tornado Warning</cap:event>
+                <cap:event>Tornado Warning2</cap:event>
                 <cap:urgency>Immediate</cap:urgency>
                 <cap:severity>Extreme</cap:severity>
                 <cap:certainty>Observed</cap:certainty>
