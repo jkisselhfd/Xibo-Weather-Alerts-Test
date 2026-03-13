@@ -26,7 +26,7 @@
             <cap:info>
                 <cap:language>en</cap:language>
                 <cap:category>Met</cap:category>
-                <cap:event>Test Event</cap:event>
+                <cap:event>Tornado Warning</cap:event>
                 <cap:urgency>Expected</cap:urgency>
                 <cap:severity>Severe</cap:severity>
                 <cap:certainty>Likely</cap:certainty>
