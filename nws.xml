@@ -28,12 +28,12 @@
                 <cap:category>Met</cap:category>
                 <cap:event>Test</cap:event>
                 <cap:urgency>Immediate</cap:urgency>
-                <cap:severity>Extreme</cap:severity>
+                <cap:severity>Nothing</cap:severity>
                 <cap:certainty>Observed</cap:certainty>
                 <cap:senderName>Sample Weather Service - TEST MODE</cap:senderName>
                 <cap:headline>TEST IN EFFECT FOR EVANSVILLE AND SURROUNDING AREAS</cap:headline>
-                <cap:description>This is a simulated TEST for demonstration purposes only. If this were real, seek shelter immediately in an interior room on the lowest floor of a sturdy building. Avoid windows, doors, and exterior walls. No actual weather threat exists at this time.</cap:description>
-                <cap:instruction>TEST INSTRUCTION ONLY: t under something sturdy. Protect your head. THIS IS A TEST - NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
+                <cap:description>This is a simulated TEST for demonstration purposes only. If this were real, t floor of a sturdy building. Avoid windows, doors, and exterior walls. No actual weather threat exists at this time.</cap:description>
+                <cap:instruction>TEST INSTRUCTION ONLY:NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
                 <cap:web>https://example.com/test-tornado-warning</cap:web>
                 <cap:contact>alerts@example.com</cap:contact>
                 <cap:area>
