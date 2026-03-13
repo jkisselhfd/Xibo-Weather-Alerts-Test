@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
     <id>https://example.com/alerts</id>
-    <title>Sample Weather Alerts Feed</title>
+    <title>Sample Weather Alerts Feed - TEST TORNADO WARNING</title>
     <updated>2025-01-01T00:00:00-00:00</updated>
     <author>
         <name>Sample Weather Service</name>
     </author>
     <entry>
         <id>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</id>
-        <title>Test Alert for Sample Region</title>
+        <title>TEST TORNADO WARNING for Evansville Area</title>
         <updated>2025-01-01T00:00:00-00:00</updated>
         <published>2025-01-01T00:00:00-00:00</published>
         <author>
             <name>Sample Weather Service</name>
         </author>
-        <summary type="text">This is a test alert for a sample region to demonstrate CAP XML formatting. THIS IS ONLY A TEST. This is a test alert for a sample region to demonstrate CAP XML formatting. THIS IS ONLY A TEST.</summary>
+        <summary type="text">THIS IS A TEST TORNADO WARNING. No real danger exists. For testing overlay display and sound only. THIS IS ONLY A TEST.</summary>
         <link href="https://example.com" />
         <cap:alert>
             <cap:identifier>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</cap:identifier>
@@ -27,29 +27,20 @@
                 <cap:language>en</cap:language>
                 <cap:category>Met</cap:category>
                 <cap:event>Tornado Warning</cap:event>
-                <cap:urgency>Expected</cap:urgency>
-                <cap:severity>Severe</cap:severity>
-                <cap:certainty>Likely</cap:certainty>
-                <cap:senderName>Name. Sample Weather Service</cap:senderName>
-                <cap:headline>Test Alert for Sample Region</cap:headline>
-                <cap:description>Description. This is a sample description for a simulated weather alert. No real-world action is required.</cap:description>
-                <cap:instruction>Instruction.This is only a test. No action is needed. For questions, contact your test admin.</cap:instruction>
-                <cap:web>https://example.com</cap:web>
+                <cap:urgency>Immediate</cap:urgency>
+                <cap:severity>Extreme</cap:severity>
+                <cap:certainty>Observed</cap:certainty>
+                <cap:senderName>Sample Weather Service - TEST MODE</cap:senderName>
+                <cap:headline>TEST TORNADO WARNING IN EFFECT FOR EVANSVILLE AND SURROUNDING AREAS</cap:headline>
+                <cap:description>This is a simulated TEST Tornado Warning for demonstration purposes only. If this were real, seek shelter immediately in an interior room on the lowest floor of a sturdy building. Avoid windows, doors, and exterior walls. No actual weather threat exists at this time.</cap:description>
+                <cap:instruction>TEST INSTRUCTION ONLY: Move to an interior room or basement. Get under something sturdy. Protect your head. THIS IS A TEST - NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
+                <cap:web>https://example.com/test-tornado-warning</cap:web>
                 <cap:contact>alerts@example.com</cap:contact>
-                <cap:resource>
-                    <cap:resourceDesc>Sample image</cap:resourceDesc>
-                    <cap:mimeType>jpeg</cap:mimeType>
-                    <cap:uri>https://example.com/images/sample.jpg</cap:uri>
-                </cap:resource>
                 <cap:area>
-                    <cap:areaDesc>Sample Region</cap:areaDesc>
-                    <cap:polygon>0.0,0.0 0.0,1.0 1.0,1.0 1.0,0.0 0.0,0.0</cap:polygon>
+                    <cap:areaDesc>Evansville, Haubstadt, and nearby counties</cap:areaDesc>
+                    <cap:polygon>38.00,-87.55 38.20,-87.50 38.25,-87.60 38.10,-87.70 38.00,-87.55</cap:polygon>
                 </cap:area>
             </cap:info>
         </cap:alert>
     </entry>
 </feed>
-
-
-
-
