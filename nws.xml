@@ -1,46 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
-    <id>https://example.com/alerts</id>
-    <title>Sample Weather Alerts Feed - TEST TORNADO WARNING</title>
-    <updated>2025-01-01T00:00:00-00:00</updated>
-    <author>
-        <name>Sample Weather Service</name>
-    </author>
-    <entry>
-        <id>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</id>
-        <title>TEST TORNADO WARNING for Evansville Area</title>
-        <updated>2025-01-01T00:00:00-00:00</updated>
-        <published>2025-01-01T00:00:00-00:00</published>
-        <author>
-            <name>Sample Weather Service</name>
-        </author>
-        <summary type="text">THIS IS A TEST TORNADO WARNING. No real danger exists. For testing overlay display and sound only. THIS IS ONLY A TEST.</summary>
-        <link href="https://example.com" />
-        <cap:alert>
-            <cap:identifier>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</cap:identifier>
-            <cap:sender>alerts@example.com</cap:sender>
-            <cap:sent>2025-01-01T00:00:00-00:00</cap:sent>
-            <cap:status>Test</cap:status>
-            <cap:msgType>Alert</cap:msgType>
-            <cap:scope>Public</cap:scope>
-            <cap:info>
-                <cap:language>en</cap:language>
-                <cap:category>Met</cap:category>
-                <cap:event>Tornado Warning</cap:event>
-                <cap:urgency>Immediate</cap:urgency>
-                <cap:severity>Extreme</cap:severity>
-                <cap:certainty>Observed</cap:certainty>
-                <cap:senderName>Sample Weather Service - TEST MODE</cap:senderName>
-                <cap:headline>TEST TORNADO WARNING IN EFFECT FOR EVANSVILLE AND SURROUNDING AREAS</cap:headline>
-                <cap:description>This is a simulated TEST Tornado Warning for demonstration purposes only. If this were real, seek shelter immediately in an interior room on the lowest floor of a sturdy building. Avoid windows, doors, and exterior walls. No actual weather threat exists at this time.</cap:description>
-                <cap:instruction>TEST INSTRUCTION ONLY: Move to an interior room or basement. Get under something sturdy. Protect your head. THIS IS A TEST - NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
-                <cap:web>https://example.com/test-tornado-warning</cap:web>
-                <cap:contact>alerts@example.com</cap:contact>
-                <cap:area>
-                    <cap:areaDesc>Evansville, Haubstadt, and nearby counties</cap:areaDesc>
-                    <cap:polygon>38.00,-87.55 38.20,-87.50 38.25,-87.60 38.10,-87.70 38.00,-87.55</cap:polygon>
-                </cap:area>
-            </cap:info>
-        </cap:alert>
-    </entry>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
+
+  <title>TEST - NWS Active Alerts TEST</title>
+  <updated>2026-03-13T12:00:00-05:00</updated>
+
+  <entry>
+    <id>urn:oid:2.49.0.1.840.0.TESTSEVERETHUNDERSTORMWARNING</id>
+    <updated>2026-03-13T12:00:00-05:00</updated>
+
+    <cap:status>Test</cap:status>
+    <cap:msgType>Alert</cap:msgType>
+    <cap:category>Met</cap:category>
+
+    <cap:event>Severe Thunderstorm Warning</cap:event>
+
+    <cap:urgency>Immediate</cap:urgency>
+    <cap:severity>Severe</cap:severity>
+    <cap:certainty>Observed</cap:certainty>
+
+    <cap:effective>2026-03-13T12:00:00-05:00</cap:effective>
+    <cap:expires>2026-03-13T13:00:00-05:00</cap:expires>
+
+    <cap:headline>
+TEST TEST TEST SEVERE THUNDERSTORM WARNING TEST TEST TEST
+    </cap:headline>
+
+    <cap:description>
+THIS IS A TEST MESSAGE. TEST TEST TEST.
+
+At 12:00 PM CDT, a TEST severe thunderstorm was located near Haubstadt, Indiana.
+This alert exists ONLY for TESTING purposes.
+
+TEST TEST TEST — NO REAL WEATHER THREAT — TEST TEST TEST.
+    </cap:description>
+
+    <cap:instruction>
+TEST INSTRUCTION: This is only a TEST of the weather alert display system.
+Take no action. TEST TEST TEST.
+    </cap:instruction>
+
+  </entry>
+
 </feed>
