@@ -14,7 +14,7 @@
         <author>
             <name>Sample Weather Service</name>
         </author>
-        <summary type="text">THIS IS A TEST . No real danger exists. For testing overlay display and sound only. THIS IS ONLY A TEST.</summary>
+        <summary type="text">THIS IS ONLY A TEST . No real danger exists. For testing overlay display and sound only. THIS IS ONLY A TEST.</summary>
         <link href="https://example.com" />
         <cap:alert>
             <cap:identifier>urn:oid:1.23.4.5.6.7.2025.1.1.0.0.0</cap:identifier>
@@ -33,8 +33,8 @@
                 <cap:senderName>Sample Weather Service - TEST MODE</cap:senderName>
                 <cap:headline>TEST IN EFFECT FOR EVANSVILLE AN SURROUNDING AREAS</cap:headline>
                 <cap:description>This is a simulated TEST Tornado Warning for demonstration purposes only. If this were real, seek shelter immediately in an interior room on the lowest floor of a sturdy building. Avoid windows, doors, and exterior walls. No actual weather threat exists at this time.</cap:description>
-                <cap:instruction>TEST INSTRUCTION ONLY: Move to an interior room or basement. Get under something sturdy. Protect your head. THIS IS A TEST - NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
-                <cap:web>https://example.com/test-tornado-warning</cap:web>
+                <cap:instruction>TEST INSTRUCTION ONLY: Move to an interior room or basement. Getnder something sturdy. Protect your head. THIS IS A TEST - NO ACTION REQUIRED IN REAL LIFE.</cap:instruction>
+                <cap:web>https://example.com/test-tornado-warning</cap:web
                 <cap:contact>alerts@example.com</cap:contact>
                 <cap:area>
                     <cap:areaDesc>Evansville, Haubstadt, and nearby counties</cap:areaDesc>
