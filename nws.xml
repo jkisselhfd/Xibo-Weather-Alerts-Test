@@ -23,11 +23,11 @@
     <cap:expires>2026-03-13T13:00:00-05:00</cap:expires>
 
     <cap:headline>
-TEST TEST TEST SEVERE THUNDERSTORM WARNING TEST TEST TEST
+TEST SEVERE THUNDERSTORM WARNING TEST
     </cap:headline>
 
     <cap:description>
-THIS IS A TEST MESSAGE. TEST TEST TEST.
+THIS IS A TEST MESSAGE. TEST TEST.
 
 At 12:00 PM CDT, a TEST severe thunderstorm was located near Haubstadt, Indiana.
 This alert exists ONLY for TESTING purposes.
