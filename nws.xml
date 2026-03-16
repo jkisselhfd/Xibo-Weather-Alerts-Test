@@ -2,44 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom"
       xmlns:cap="urn:oasis:names:tc:emergency:cap:1.2">
 
-  <title>TEST - NWS Active Alerts TEST</title>
+  <title>TEST - NWS Active Alerts</title>
   <updated>2026-03-13T12:00:00-05:00</updated>
 
   <entry>
-    <id>urn:oid:2.49.0.1.840.0.TESTSEVERETHUNDERSTORMWARNING</id>
+    <id>urn:oid:2.49.0.1.840.0.TESTSEVERETHUNDERSTORMWARNING.20260313</id>
+    <title>TEST Severe Thunderstorm Warning</title>
     <updated>2026-03-13T12:00:00-05:00</updated>
+    <published>2026-03-13T12:00:00-05:00</published>
 
-    <cap:status>Test</cap:status>
-    <cap:msgType>Alert</cap:msgType>
-    <cap:category>Met</cap:category>
+    <cap:alert>
+      <cap:identifier>TEST-SEVERE-THUNDERSTORM-20260313</cap:identifier>
+      <cap:sender>alerts@example.com</cap:sender>
+      <cap:sent>2026-03-13T12:00:00-05:00</cap:sent>
+      <cap:status>Test</cap:status>
+      <cap:msgType>Alert</cap:msgType>
+      <cap:scope>Public</cap:scope>
 
-    <cap:event>Severe Thunderstorm Warning</cap:event>
+      <cap:info>
+        <cap:language>en</cap:language>
+        <cap:category>Met</cap:category>
+        <cap:event>Severe Thunderstorm Warning</cap:event>
+        <cap:urgency>Immediate</cap:urgency>
+        <cap:severity>Severe</cap:severity>
+        <cap:certainty>Observed</cap:certainty>
+        <cap:effective>2026-03-13T12:00:00-05:00</cap:effective>
+        <cap:expires>2026-03-13T13:00:00-05:00</cap:expires>
 
-    <cap:urgency>Immediate</cap:urgency>
-    <cap:severity>Severe</cap:severity>
-    <cap:certainty>Observed</cap:certainty>
+        <cap:senderName>NWS Paducah - TEST MODE</cap:senderName>
+        <cap:headline>TEST SEVERE THUNDERSTORM WARNING</cap:headline>
 
-    <cap:effective>2026-03-13T12:00:00-05:00</cap:effective>
-    <cap:expires>2026-03-13T13:00:00-05:00</cap:expires>
-
-    <cap:headline>
-TEST SEVERE THUNDERSTORM WARNING TEST
-    </cap:headline>
-
-    <cap:description>
+        <cap:description>
 THIS IS A TEST MESSAGE. TEST TEST.
 
-At 12:00 PM CDT, a TEST severe thunderstorm was located near Haubstadt, Indiana.
+At 12:00 PM CDT, a TEST severe thunderstorm was located near Haubstadt, Indiana moving east at 40 mph.
+
 This alert exists ONLY for TESTING purposes.
-
 TEST TEST TEST — NO REAL WEATHER THREAT — TEST TEST TEST.
-    </cap:description>
+        </cap:description>
 
-    <cap:instruction>
+        <cap:instruction>
 TEST INSTRUCTION: This is only a TEST of the weather alert display system.
-Take no action. TEST TEST TEST.
-    </cap:instruction>
+Take no action. This message is for testing the Severe Thunderstorm Warning overlay only.
+        </cap:instruction>
 
+        <cap:area>
+          <cap:areaDesc>Haubstadt, Evansville, and surrounding areas</cap:areaDesc>
+        </cap:area>
+      </cap:info>
+    </cap:alert>
   </entry>
 
 </feed>
