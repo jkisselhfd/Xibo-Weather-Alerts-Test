@@ -35,10 +35,10 @@
         <cap:description>
 THIS IS A TEST MESSAGE. TEST TEST.
 
-At 12:00 PM CDT, a TEST severe thunderstorm was located near Haubstadt, Indiana moving east at 40 mph.
+At 12:00 PM CDT, a TEST severe thunderstorm was located near Test Haubstadt, Indiana moving east at 40 mph.
 
 This alert exists ONLY for TESTING purposes.
-TEST TEST TEST — NO REAL WEATHER THREAT — TEST TEST TEST.
+TEST TEST — NO REAL WEATHER THREAT — TEST TEST.
         </cap:description>
 
         <cap:instruction>
